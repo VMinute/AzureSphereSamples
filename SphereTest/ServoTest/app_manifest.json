@@ -1,0 +1,14 @@
+{
+  "SchemaVersion": 1,
+  "Name" : "ServoTest",
+  "ComponentId" : "9e3465c7-defe-4e8f-8bef-fdc65c90a499",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "TargetApplicationRuntimeVersion": 1,
+  "Capabilities": {
+    "AllowedConnections": [],
+    "Gpio": [0],
+    "Uart": [],
+    "WifiConfig": false
+  }
+}

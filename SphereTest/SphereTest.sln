@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoftPWM", "SoftPWM\SoftPWM.vcxproj", "{608AAF67-201C-4E53-A042-9C4318B51820}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PWMTest", "PWMTest\PWMTest.vcxproj", "{AE597ABB-7F5C-49B5-89D8-AD2ED171EE77}"
+	ProjectSection(ProjectDependencies) = postProject
+		{608AAF67-201C-4E53-A042-9C4318B51820} = {608AAF67-201C-4E53-A042-9C4318B51820}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Servo", "Servo\Servo.vcxproj", "{9A4632C6-BBB2-402D-8526-EA75B0D01CA6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServoTest", "ServoTest\ServoTest.vcxproj", "{73511AE3-3C6C-475B-B176-C315DDE3EA6D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{608AAF67-201C-4E53-A042-9C4318B51820} = {608AAF67-201C-4E53-A042-9C4318B51820}
+		{9A4632C6-BBB2-402D-8526-EA75B0D01CA6} = {9A4632C6-BBB2-402D-8526-EA75B0D01CA6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{608AAF67-201C-4E53-A042-9C4318B51820}.Debug|ARM.ActiveCfg = Debug|ARM
+		{608AAF67-201C-4E53-A042-9C4318B51820}.Debug|ARM.Build.0 = Debug|ARM
+		{608AAF67-201C-4E53-A042-9C4318B51820}.Release|ARM.ActiveCfg = Release|ARM
+		{608AAF67-201C-4E53-A042-9C4318B51820}.Release|ARM.Build.0 = Release|ARM
+		{AE597ABB-7F5C-49B5-89D8-AD2ED171EE77}.Debug|ARM.ActiveCfg = Debug|ARM
+		{AE597ABB-7F5C-49B5-89D8-AD2ED171EE77}.Debug|ARM.Build.0 = Debug|ARM
+		{AE597ABB-7F5C-49B5-89D8-AD2ED171EE77}.Release|ARM.ActiveCfg = Release|ARM
+		{AE597ABB-7F5C-49B5-89D8-AD2ED171EE77}.Release|ARM.Build.0 = Release|ARM
+		{9A4632C6-BBB2-402D-8526-EA75B0D01CA6}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9A4632C6-BBB2-402D-8526-EA75B0D01CA6}.Debug|ARM.Build.0 = Debug|ARM
+		{9A4632C6-BBB2-402D-8526-EA75B0D01CA6}.Release|ARM.ActiveCfg = Release|ARM
+		{9A4632C6-BBB2-402D-8526-EA75B0D01CA6}.Release|ARM.Build.0 = Release|ARM
+		{73511AE3-3C6C-475B-B176-C315DDE3EA6D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{73511AE3-3C6C-475B-B176-C315DDE3EA6D}.Debug|ARM.Build.0 = Debug|ARM
+		{73511AE3-3C6C-475B-B176-C315DDE3EA6D}.Release|ARM.ActiveCfg = Release|ARM
+		{73511AE3-3C6C-475B-B176-C315DDE3EA6D}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {381BBB5F-2D14-4361-9A94-6CEE052F61CF}
+	EndGlobalSection
+EndGlobal

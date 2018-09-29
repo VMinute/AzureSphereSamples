@@ -1,0 +1,14 @@
+{
+  "SchemaVersion": 1,
+  "Name" : "PWMTest",
+  "ComponentId" : "86edb08a-a21b-49f5-b619-babd63294326",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "TargetApplicationRuntimeVersion": 1,
+  "Capabilities": {
+    "AllowedConnections": [],
+    "Gpio": [0,1,2],
+    "Uart": [],
+    "WifiConfig": false
+  }
+}
